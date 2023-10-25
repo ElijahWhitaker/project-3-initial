@@ -23,7 +23,7 @@ import java.util.Iterator;
 public class BagManager {
     public static void main(String[] args) {
 
-        Container<String> stringBag = new Bag<>();
+        Container<String> stringBag = new ArrayListBag<>();
 
         stringBag.add("Apple");
         stringBag.add("Orange");
